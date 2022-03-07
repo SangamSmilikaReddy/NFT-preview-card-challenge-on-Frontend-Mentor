@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+}
+body{
+    background-color: hsl(217, 54%, 11%);
+}
+p{
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+h1{
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+}
+#h3{
+    color: hsl(178, 100%, 50%);
+    font-weight: 400;
+}
+.box{
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+    margin: 150px auto;
+    height: 600px;
+    width: 350px;
+    box-shadow: 2px 2px solid black;
+
+}
+.im{
+    border: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    height: 300px;
+    width: 300px;
+}
+.im:hover{
+    background-image: url();
+}
+#avatar{
+    border-radius: 100%;   
+    border-color: hsl(0, 0%, 100%);   
+    border-style: solid;
+    vertical-align: middle;
+}
+.content{
+    padding-left: 20px;
+    border-spacing: 20px ;
+    margin-top:10px;
+}
+.content h3{
+    margin-top: 20px;
+}
+.content p{
+    margin-top: 20px;
+}
+#h3 span{
+    color: hsl(215, 51%, 70%);
+    padding-left: 130px;
+    font-weight: 400;
+}
+#h3 img{
+    position:relative;
+    vertical-align: middle;
+
+}
+.bottom{
+    margin: 10px;
+    padding-left: 10px;
+}
+#creator{
+    padding-left: 20px;
+}
+p #span{
+    color: hsl(0, 0%, 100%);
+    
+}
+p #span:hover{
+    color: hsl(178, 100%, 50%);
+}
+h1:hover{
+    color:hsl(178, 100%, 50%);
+}
+hr{
+    background-color:hsl(215, 32%, 27%);
+    margin:20px;
+}
+footer p{
+    color:hsl(178, 100%, 50%); ;
+}
+footer a{
+    color:hsl(0, 0%, 100%) ;
+}
